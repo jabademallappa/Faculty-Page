@@ -79,7 +79,7 @@
 
   <div class="container">
     <div class="profile">
-      <img src="profile.jpg" alt="Mr. Mallappa Jabade Photo" />
+      <img src="Mallappa.jpg" alt="Mr. Mallappa Jabade Photo" />
       <div class="details">
         <h2>Contact Details</h2>
         <div class="info">
