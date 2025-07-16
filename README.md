@@ -9,64 +9,99 @@
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f7f9;
-      color: #333;
+      background: #f0f4f8;
+      color: #222;
     }
     header {
-      background-color: #004080;
+      background: linear-gradient(90deg, #003366, #0059b3);
       color: white;
-      padding: 20px 40px;
+      padding: 30px 40px;
+      text-align: center;
     }
     header h1 {
       margin: 0;
+      font-size: 2em;
     }
+    header p {
+      margin-top: 5px;
+      font-size: 1.1em;
+      font-weight: 300;
+    }
+
     .container {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
       background: white;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 12px;
     }
+
     .profile {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      margin-bottom: 30px;
     }
+
     .profile img {
-      width: 150px;
-      height: 190px;
+      width: 160px;
+      height: 200px;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 10px;
       margin-right: 30px;
+      border: 3px solid #0059b3;
     }
-    .details {
-      flex: 1;
-    }
+
     .details h2 {
       margin-top: 0;
+      color: #003366;
     }
+
     .info p {
-      margin: 5px 0;
+      margin: 8px 0;
+      font-size: 1em;
     }
+
     section {
-      margin-top: 20px;
+      margin-top: 25px;
+      padding: 15px 20px;
+      background-color: #f9f9fb;
+      border-left: 5px solid #003366;
+      border-radius: 8px;
     }
+
     section h3 {
-      color: #004080;
+      color: #003366;
+      margin-top: 0;
     }
+
     ul {
       padding-left: 20px;
     }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      color: #ff9933;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
-      color: #666;
-    }
-    a {
-      color: #004080;
-      text-decoration: none;
+      background: #003366;
+      color: white;
+      border-top: 4px solid #0059b3;
+      margin-top: 40px;
     }
   </style>
 </head>
